@@ -3,9 +3,9 @@ int sumof_2numbers(int a,int b)
 {
     return a+b;
 }
-vodi main()
+void main()
 {
-int a,b;
+int a,b,result;
 printf("Enter 2 numbers:"); 
 scanf("%d%d",&a,&b);
 result=sumof_2numbers(a,b);
