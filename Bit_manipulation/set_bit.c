@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int num,pos;
-printf("enter the number and position to set bit\n");
-scanf("%d%d",&num,&pos);
-num=num|(1<<pos);
+    int num,pos1,pos2;
+printf("enter the number and positions to set bits\n");
+scanf("%d%d%d",&num,&pos1,&pos2);
+num=num|(1<<pos1  | 1<<pos2);
 printf("number after setting bit is %d",num);
 }
